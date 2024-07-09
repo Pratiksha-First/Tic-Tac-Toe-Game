@@ -22,7 +22,8 @@ boxes.forEach((box) => {
 //  console.log(box);
      box.addEventListener("click",()=>{
      console.log("box was clicked");
-//  
+         
+// this is use for print 0 and X in boxes with according to turns through conditions
       if(turn0===true){
         box.innerText="0";
         box.style.color="black";
@@ -60,6 +61,8 @@ const showWinner=(Winner)=>{
 
 const checkWinner = () => {
     for(let pattern of winPatterns){
+
+        // this is use for checking postion of the boxes.
         // console.log(pattern[0], pattern[1], pattern[2]);
         // console.log(
         //     boxes[pattern[0]].innerText, 

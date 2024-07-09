@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+.container{
+     background-color: yellow;
+     height: 40vh;
+     width: 40vh;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 5px;
+}
+
+.box{
+    height: 70px;
+    width: 70px;
+    border-radius: 20%;
+    background-color: rgb(0, 42, 255);
+    /* margin: 2px; */
+    border: none;
+    box-shadow: 0 0 16px black;
+    font-size: 40px;
+    color: white;
+    
+}
+#reset{
+    height: 30px;
+    width: 80px;
+    margin: 20px;
+    border-radius:5px ;
+    background-color: black;
+    color: white;
+    border: none;
+    box-shadow: 0 0 16px red;
+    
+}
+
+#new-btn{
+    height: 30px;
+    width: 80px;
+    margin: 20px;
+    border-radius:5px ;
+    background-color: black;
+    color: white;
+    border: none;
+    box-shadow: 0 0 16px red;
+}
+
+#msg{
+    color: brown;
+    font-size: 30px;
+}
+
+.hide{
+    display: none;
+}
+
+
+
+
+
+
